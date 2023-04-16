@@ -9,7 +9,7 @@ public class Bus {
         this.busNumber = busNumber;
     }
     public void take(int money){
-        this.money = money;
+        this.money += money;
         passengerCount ++;
     }
     public void showInfo(){

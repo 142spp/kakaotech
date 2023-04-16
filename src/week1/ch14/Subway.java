@@ -9,7 +9,7 @@ public class Subway {
         this.subwayNumber = subwayNumber;
     }
     public void take(int money){
-        this.money = money;
+        this.money += money;
         passengerCount ++;
     }
     public void showInfo(){
